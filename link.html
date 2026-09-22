@@ -22,7 +22,7 @@
 			   
 	}
 		.logo {
-			width: 65px;
+			width: 68px;
 			margin-left: 2px
 	}
 		#bottoni {
@@ -82,57 +82,75 @@
 					margin-left: 14px;
 					display: block;
 					text-align: center;
-			
+					margin: 10px 0;
+					margin-bottom: 20px;
+
+					
 		}
 			.banner {
 					flex-direction: column;
-					width: 305px;
+					width: 355px;
 		}
 			#nutrie {
 					margin-left: 42px;
-					width: 300px
+					width: 260px
 					
 		}
 			#eugy {
 					margin-left: 42px;
-					width: 300px
+					width: 260px
 
 		}
 			#tulipane {
 					margin-left: 42px;
-					width: 300px
+					width: 260px
 
-		}
 	}
 	</style>
 	</head>
 	<body>
 		<div id="striscia"> <!-- striscia -->
-			<img src="immagini/nutria-logo.png"
+			<img src="immagini/nutria-logo.webp"
 			class="logo">
                 <!-- i bottonini-->
 		<div id="bottoni">
 		<center><a href="index.html">
 			<button style="font-size: 35px;
 			border: none;
+			margin-left: -80px;
 			background-color: orange;
 			apparence: none;
 			color: white;
 			font-family: serif;
-			cursor: pointer;">
+			cursor: pointer;"
+			id="home">
 				home
 			</button>
 			</a>
 			<a href="link.html">
 			<button style="
-			margin-left: 120px;
+			margin-left: 100px;
 			border: none;
 			background-color: orange;
 			font-size: 35px;
 			color: white;
 			font-family:serif;
-			cursor: pointer;">
+			cursor: pointer;"
+			id="link">
 				link
+			</button>
+			</a>
+			<a href="membri.html">
+			<button style="
+			border: none;
+			background-color: orange;
+			font-size: 35px;
+			margin-left: 100px;
+			color: white;
+			font-family:serif;
+			cursor: pointer;"
+			id="membri">
+				membri
 			</button>
 			</a>
 			<a 
@@ -141,10 +159,11 @@
 			border: none;
 			background-color: orange;
 			font-size: 35px;
-			margin-left: 120px;
+			margin-left: 100px;
 			color: white;
 			font-family:serif;
-			cursor: pointer;">
+			cursor: pointer;"
+			id="commenti">
 				commenti
 			</button>
 			</a>
@@ -154,10 +173,11 @@
 			border: none;
 			background-color: orange;
 			font-size: 35px;
-			margin-left: 120px;
+			margin-left: 100px;
 			color: white;
 			font-family:serif;
-			cursor: pointer;">
+			cursor: pointer;"
+			id="iscriviti">
 				Iscriviti!
 			</button>
 			</a>
@@ -166,13 +186,13 @@
 		</div>
 		<div> <!-- tutta la paginone-->
 		<div> <!-- der banner-->
-			<img src="immagini/banner2.png"
+			<img src="immagini/banner2.webp"
 			class="banner">
 		</div> 
 		<div id="nutrie"><!-- canale nutrie -->
 	        <center><a href="https://youtube.com/@nutrie_tube?				si=e7Bslf2hu115MqKV">
                 <button style="border: none;
-			background-color: #654321;
+			background-color: #cd9a00;
 			font-size: 35px;
 			color: white;
 			font-family:serif;
@@ -180,8 +200,14 @@
 			margin-top: 45px;
 			margin-left: 10px;
 			width: 430px;
-			">
-		<img src="immagini/nutria-logo.png"						class="nutria">														canale nutrie
+			display: flex;
+			border-radius: 10px;">
+		<img src="immagini/logo.webp"class="nutria">	
+					<p style="
+					margin-top: 50px;
+					margin-left:35px;
+					">																					canale nutrie
+					</p>
 		</button>
 		</a>
 		</center>
@@ -196,9 +222,16 @@
 			cursor: pointer;
 			margin-top: 45px;
 			margin-left: 10px;
-			width: 430px;">
-			<img src="immagini/eugy.png"
-		class="eutube">				canale eugy
+			width: 430px;
+			display: flex;
+			border-radius: 10px;">
+			<img src="immagini/eugy.png"class="eutube">				
+					<p style="
+					margin-top: 50px;
+					margin-left:35px;
+					">
+					canale eugy
+					</p>
 		</button>
 		</a>
 		</center>
@@ -213,10 +246,17 @@
 			cursor: pointer;
 			margin-top: 45px;
 			margin-left: 10px;
-			width: 430px;">
+			width: 430px;	
+			display: flex;
+			border-radius: 10px;">
 		<img src="immagini/tulipane.png"
 		class="tulipane1">
+					<p style="
+					margin-top: 50px;
+					margin-left:35px;
+					">
 					canale tulipane
+					</p>
 		</button>
 		</a>
 		</center>
